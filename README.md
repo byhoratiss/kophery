@@ -37,7 +37,7 @@ Add the Kophery module to your Kohana 3.1(.2) installation. Navigate to http://[
 IMPORTANT: Have a look at [gahgneh's repo](https://github.com/gahgneh/phery) for getting a feeling of all the possibilities! This module only sets the parts in place for running as a Kohana module, nothing more!
 
 ## Info
-This module includes a media controller for loading of the js files. If using in older Ko3 versions, there might be needed a change in the [media controller](https://github.com/cambiata/kopjax/blob/master/classes/controller/media.php) (response->check_cache should be replaced with request->check_cache).
+This module includes a media controller for loading of the js files. If using in older Ko3 versions, there might be needed a change in the [media controller](https://github.com/cambiata/kophery/blob/master/classes/controller/media.php) (response->check_cache should be replaced with request->check_cache).
 
 
 ## Credits
