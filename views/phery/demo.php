@@ -7,7 +7,7 @@
 
 <ul>
 	<li><?php echo phery::link_to('Click here to trig ph_testmethod', 'testmethod', array('args' => array('somedata' => 'This message is passed as data from the calling link to ph_testmethod!'))); ?></li>
-	<li><?php echo phery::link_to('Click here to trig ph_testmethod2', 'testmethod2', array('confirm' => 'Are you sure?', 'args' => array('somedata' => 'This message is passed as data from the calling link to ph_testmethod2!', 'moredata' => 'More phery data passed...'))); ?></li>
+	<li><?php echo phery::link_to('Click here to trig ph_testmethod2, with confirm dialog and alert displayed from target method', 'testmethod2', array('confirm' => 'Are you sure?', 'args' => array('somedata' => 'This message is passed as data from the calling link to ph_testmethod2!', 'moredata' => 'More phery data passed...'))); ?></li>
 	<li><?php echo phery::link_to('Click here to trig an undefined target method', 'undefinedmethod'); ?></li>
 </ul>
 <hr />
