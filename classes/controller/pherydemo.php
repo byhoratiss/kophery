@@ -22,12 +22,23 @@ class Controller_PheryDemo extends Controller {
 	{
 		// Phery allows jquery methods to be used from php! :-)
 		return phery_response::factory('#target')
-		->html(print_r($data['hello'], true))
+		->html(print_r($data['somedata'], true))
 		->css(array('backgroundColor' => 'yellow'))
-		->width('400')
+		->animate(array('width'=>'600'), 'slow')
 		->height('200')
-		->alert(print_r($data['more'], true))
 		;	
 	}	
+
+	public function ph_testmethod2($data) 
+	{
+		return phery_response::factory('#target')
+		->html(print_r($data['somedata'], true))
+		->css(array('backgroundColor' => 'lime'))
+		->width('300')
+		->height('100')
+		->alert(print_r($data['moredata'], true))
+		;	
+	}	
+	
 	
 }
