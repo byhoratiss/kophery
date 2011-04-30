@@ -9,8 +9,6 @@ Kophery adds nothing to gahgne's lib except for the Phery_Utils class and it's q
 The following link with it's "testmethod" target function...
 
 		<?php echo phery::link_to('A click on this link triggers Controller_PheryDemo::ph_testmethod function', 'testmethod', array('confirm' => 'Are you sure?', 'id' => 'special', 'url' => '', 'args' => array('hello' => 'This message is passed as data from the calling link!', 'more' => 'More phery data passed...'))); ?>
-		<hr />
-		<div id="target">This text in "target" div is going to be replaced!</div>
 
 thus corresponds to the following 'ph_testmethod' controller function:
 
@@ -26,7 +24,9 @@ thus corresponds to the following 'ph_testmethod' controller function:
 		;	
 	}	
 
-The jQuery #target selector directs the output to the "target" div - just standard jQuery behaviour and possibilities.
+The jQuery #target selector directs the output to the "target" div - just standard jQuery behaviour and possibilities:
+
+	<div id="target">This text in "target" div is going to be replaced!</div>
 
 
 ## Usage
