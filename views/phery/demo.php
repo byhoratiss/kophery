@@ -1,5 +1,6 @@
 <?php $mediabase = Route::url('media'); //echo $mediabase; ?>
 
+<!-- jQuery.js and Phery.js are loaded and som styling is set in views/phery/pheryinit.php:  -->
 <?php echo View::factory('phery/pheryinit') ?>
 
 <h1>Kophery demo</h1>
