@@ -1,6 +1,6 @@
 ## Kophery - Phery jQuery module for Kohana 3.1(.2)
 
-VERY Simplistic [Kohana 3](https://github.com/kohana/kohana) module implementation of [gahgneh's phery](https://github.com/gahgneh/phery)
+VERY Simplistic [Kohana 3](https://github.com/kohana/kohana) module implementation of [gahgneh's phery](https://github.com/gahgneh/phery) 0.5.1 beta
 
 Phery allows jQuery methods to be called using php.
 
