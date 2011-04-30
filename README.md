@@ -7,13 +7,13 @@ Phery allows jQuery methods to be called using php.
 Kophery adds nothing to gahgne's lib except for the Phery_Utils class and it's quickinit method. This method automatically registers all 'ph_' prefixed methods as phery callbacks, wich saves some typing...
 
 The following link with it's "testmethod" target function...
-~~~
-<?php echo phery::link_to('A click on this link triggers Controller_PheryDemo::ph_testmethod function', 'testmethod', array('confirm' => 'Are you sure?', 'id' => 'special', 'url' => '', 'args' => array('hello' => 'This message is passed as data from the calling link!', 'more' => 'More phery data passed...'))); ?>
-<hr />
-<div id="target">This text in "target" div is going to be replaced!</div>
-~~~
+
+		<?php echo phery::link_to('A click on this link triggers Controller_PheryDemo::ph_testmethod function', 'testmethod', array('confirm' => 'Are you sure?', 'id' => 'special', 'url' => '', 'args' => array('hello' => 'This message is passed as data from the calling link!', 'more' => 'More phery data passed...'))); ?>
+		<hr />
+		<div id="target">This te
+
 thus corresponds to the following 'ph_testmethod' controller function:
-~~~
+
 	public function ph_testmethod($data) 
 	{
 		// Phery allows jquery methods to be used from php! :-)
@@ -25,7 +25,7 @@ thus corresponds to the following 'ph_testmethod' controller function:
 		->alert(print_r($data['more'], true))
 		;	
 	}	
-~~~
+
 
 
 ## Usage
